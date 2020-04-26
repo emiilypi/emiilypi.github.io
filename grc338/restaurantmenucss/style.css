@@ -1,0 +1,49 @@
+/* css document */
+body{
+    background-color: rgb(255,255,228);
+}
+h1{
+    color: rgb(255,255,255);
+    font-size: 3em;
+    background-color: rgb(72,61,139);
+    margin: 1em 0em 1em 0em;
+    font-family: serif;
+    font-style: italic
+}
+h2 {
+    color: rgb(0,0,139);
+    font-size: 2em;
+    padding-left: 0em;
+    margin-bottom: 0em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+h3{
+    color: rgb(0,0,0);
+    font-size: 1.35em;
+    margin-bottom: 0em;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+h4{
+    padding-top: 1em;
+    margin-bottom: 0em;
+    color: rgb(72,61,139);
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+p {
+    color: rgb(0,0,0);
+    font-family: sans-serif;
+    font-size: 1em
+}
+.price{
+    color: rgb(0,0,0);
+    font-weight: 545;
+}
+.highlight{
+    font-weight: 300;
+}
