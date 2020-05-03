@@ -1,0 +1,78 @@
+/*CSS DOCUMENT*/
+
+img {
+width: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 0.5em;
+  border-style:dashed;
+  border-width: 0.5em;
+  border-color: rgb(255,255,255);
+}
+
+body{
+    background-color: rgb(255,255,220);
+}
+
+h1{
+    background-color: rgb(254,216,177);
+    padding-left:1em;
+    padding-right:1em;
+    border: 0.5em;
+    font-family:monospace;
+    font-size: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+h2{
+    font-family:monospace;
+    text-transform: lowercase;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+h3{
+    background-color: rgb(254,216,177);
+    padding: 1em;
+    font-family: monospace;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 0.5em;
+    border-style:dashed;
+    border-width: 0.1em;
+    border-color: rgb(255,255,255);
+}
+p{
+    font-family: georgia;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right:auto;
+    width: 80%;
+}
+ul{
+    font-family: georgia;
+    font-size: 1em;
+    padding-left:3em;
+}
+ol{
+    font-family: georgia;
+    font-size: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+h6{
+    font-family: georgia;
+}
