@@ -1,0 +1,122 @@
+/* css document */
+body{
+    background-color: rgb(255,255,255);
+}
+#top, #bottom, #left, #right {
+    background: rgb(221, 246, 221);
+    position: fixed;
+}
+#left, #right{
+    top: 0; 
+    bottom: 0;
+    width: 0.5em;
+}
+#left { 
+    left:0;
+}
+#right{
+    right:0;
+}
+#top, #bottom{
+    left: 0;
+    right: 0;
+    height: 0.5em;
+}
+#top{
+    top:0;
+}
+#bottom{
+    bottom: 0;
+}
+
+nav{
+    padding: 0em 0.5em 0em 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-style: dashed;
+    border-radius:1em;
+    border-width: thick;
+    text-align: center;
+}
+nav ul{
+    padding:0em;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-family: monospace;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+h2{
+    font-family: monospace;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+    color: rgb(13,52,13);
+    padding-bottom: 0em;
+}
+h3{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    color: rgb(18,72,18);
+    padding-left: 1em;
+}
+h4{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: rgb(52,13,33);
+}
+p{
+    font-family: monospace;
+    font-size:1.5em;
+    font-weight: 500;
+    text-align: center;
+}
+ul li{
+    list-style:none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+.introimage{
+    max-width: 100%;
+    width: 80%;
+}
+.customers{
+    max-width:100%;
+    width:80%;
+}
+.menu{
+    text-align: left;
+    font-size: 1em;
+    margin-top: 0em;
+}
+.price{
+    font-weight: 600;
+}
+.scenery{
+    max-width: 100%;
+    width: 80%;
+}
