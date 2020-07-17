@@ -1,0 +1,134 @@
+/*CSS document*/
+
+body {
+    font-family: 'Ramabhadra', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	line-height: 1.4em;
+	color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+nav a:hover{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+}
+
+figure a:hover{
+    background-color: rgb(255,255,255);
+}
+
+section{
+    background-color: rgb(227, 227, 227);
+    margin-bottom: 3em;
+    padding: 1em;
+}
+
+figure{
+    margin:0;
+}
+
+header h1{
+    margin: 0;
+}
+
+h1 {
+    padding-top: 2em;
+    margin-bottom: 1em;
+    color: rgb(0,0,0);
+}
+
+h3{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    color: rgb(0,0,0);
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 2em;
+    letter-spacing: 1px;
+    color: rgb(0,0,0);
+}
+
+figcaption{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+    color: rgb(0,0,0);
+    background-color: rgb(227,227,227);
+    padding: 0.5em;
+}
+
+img {
+	width: 100%;
+}
+
+
+div.container {
+    background-color: rgb(255,255,255);
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+main {
+    position: relative;
+    padding-bottom: calc(100% + 25em);
+}
+
+figure.gallery{
+    margin: 0;
+    width: calc(60%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
+input:nth-of-type(9):checked ~ main figure:nth-of-type(9){
+    opacity: 1;
+}
+
+.gallerynav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+input {
+    display: none;
+}
